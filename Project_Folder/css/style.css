@@ -15,3 +15,67 @@
 กำหนด CSS ให้รูปภาพ ดังนี้
 กำหนด ขนาดรูปภาพ ให้เหมาะสม (เช่น width: 200px; height: auto;)
 ใช้ border-radius เพื่อทำให้รูปภาพมีมุมโค้งหรือเป็นวงกลม (เช่น ใช้กับรูปประจำตัว) */
+
+td{
+    font-family: 'Arial', sans-serif;
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+table {
+  border-collapse: collapse;
+}
+tr {
+    height: 50px;
+}
+th {
+    background-color: #d9d9d9;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #000000;
+    font-weight: bold;
+    height: 60px;
+    width: 100px;
+}
+.Monday {
+    text-align: center;
+    background-color: #ffde82;
+}
+.Tuesday {
+    text-align: center;
+    background-color: #ffb3d6;
+}
+.Wednesday {
+    text-align: center;
+    background-color: #79ff7c;
+}
+.Thursday {
+    text-align: center;
+    background-color: #ffb46e;
+}
+.Friday {
+    text-align: center;
+    background-color: #77f1ff;
+}
+.Saturday {
+    text-align: center;
+    background-color: #eaa0f2;
+}
+.Sunday {
+    text-align: center;
+    background-color: #ff6857;
+}
+caption{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+.subject-details{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+}
