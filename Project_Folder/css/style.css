@@ -30,6 +30,7 @@ table {
 tr {
     height: 50px;
 }
+tr:hover {background-color: #e8e8e8;}
 th {
     background-color: #d9d9d9;
     font-weight: bold;
@@ -38,6 +39,11 @@ th {
     font-weight: bold;
     height: 60px;
     width: 100px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 10px;
 }
 .Monday {
     text-align: center;
@@ -77,5 +83,8 @@ caption{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    text-align: left;
+}
+.left-align {
     text-align: left;
 }
