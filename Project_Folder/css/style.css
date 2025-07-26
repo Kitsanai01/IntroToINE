@@ -108,13 +108,29 @@ caption{
     text-align: left;
 }
 .subject-details{
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    background: #ffffff;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.subject-details-Table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     text-align: left;
     font-family: 'Arial', sans-serif;
     background: #ffffff;
-}
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}    
 .left-align {
     text-align: left;
 }
