@@ -26,13 +26,14 @@ td{
 }
 table {
   border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
 }
 tr {
     height: 50px;
 }
 tr:hover {background-color: #e8e8e8;}
 th {
-    background-color: #d9d9d9;
+    background-color: #dce8eb;
     font-weight: bold;
     text-align: center;
     border: 1px solid #000000;
@@ -54,15 +55,13 @@ th.th2 {
 th.th3 {
     width: 25%;
 }
-th.th4 {
-    width: 5%;
-}
 th.th5 {
     width: 20%;
 }
-th.th6 {
-    width: 5%;
+th.th4 {
+    width: 10%;
 }
+
 .Head1 {
     text-align: left;
     font-size: 30px;
@@ -70,6 +69,8 @@ th.th6 {
     color: #333;
     margin-left: 5px;
     margin-bottom: 8px;
+    margin-top: 5px;
+    font-family: 'Arial', sans-serif;
 }
 .Monday {
     text-align: center;
@@ -101,7 +102,8 @@ th.th6 {
 }
 caption{
     font-size: 20px;
-    margin: 10px;
+    margin: 1px;
+    margin-bottom: 10px;
     font-weight: bold;
     text-align: left;
 }
