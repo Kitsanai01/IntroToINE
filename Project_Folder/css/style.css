@@ -45,6 +45,32 @@ body {
     margin: 0;
     padding: 10px;
 }
+th.th1 {
+    width: 5%;
+}
+th.th2 {
+    width: 1%;
+}
+th.th3 {
+    width: 25%;
+}
+th.th4 {
+    width: 5%;
+}
+th.th5 {
+    width: 20%;
+}
+th.th6 {
+    width: 5%;
+}
+.Head1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
 .Monday {
     text-align: center;
     background-color: #ffde82;
