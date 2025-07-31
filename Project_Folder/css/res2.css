@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+}
+.flex-item-left{
+    background-color: #16c1ec;
+    padding: 10px;
+    flex: 50%;
+}
+.flex-item-right{
+    background-color: #b629aa;
+    padding: 10px;
+    flex: 50%;
+}
+/* Responsive layout ออกสอบ*/
+@media (max-width:500px) {
+    .flex-container{
+        flex-direction: column;
+}
+}
